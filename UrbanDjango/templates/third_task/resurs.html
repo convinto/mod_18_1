@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ресурсы</title>
+</head>
+<body>
+    <h2>Ресурсы</h2>
+    <br>
+    <ul>
+        {% for item in resurs %}
+            <li>{{ item.name }} - <button>{{ item.price }}</button></li>
+        {% endfor %}
+    <br>
+    <a href="/home"><button>Вернуться на главную</button></a>
+
+</body>
+</html>
